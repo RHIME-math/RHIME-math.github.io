@@ -1,6 +1,6 @@
-baseurl: '/RHIME-math.github.io'
+baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'RHIME'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -14,18 +14,25 @@ home:
   limit_services: 6
 
 collections:
-  services:
+  projects:
     output: true
     sort_by: weight
   team:
     output: true
+  speakers:
+    output:true
 
 defaults:
   - scope:
       path: ""
-      type: "services"
+      type: "projects"
     values:
       layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
   - scope:
       path: ""
       type: "team"
@@ -34,9 +41,6 @@ defaults:
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
-
-plugins:
-  - jekyll-environment-variables
 
 exclude:
   - Gemfile

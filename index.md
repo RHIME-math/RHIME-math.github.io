@@ -1,13 +1,13 @@
 ---
-title: Jekyll Serif Theme
+title: RHIME
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: The Rockland-Hudson Immersive Mathematics Experience is a mathematics enrichment program.
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# Rockland-Hudson Immersive Mathematics Experience
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+This text lives in index.md
