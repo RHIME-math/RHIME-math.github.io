@@ -1,27 +1,22 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "Thank you!",
+    "description": "RHIME is sponsored by the following organizations.",
+  },
+  {
+    "title": "St. Thomas Aquinas College",
+    "description": "School of STEM",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/features/stac-logo.svg",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Mathematical Association of America",
+    "description": "SUMMA (Strengthening Under-represented Minority Mathematical Achievement.",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/MAA_logo.png",
       "width": 80,
       "height": 80
     }
