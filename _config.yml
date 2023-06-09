@@ -17,10 +17,10 @@ collections:
   projects:
     output: true
     sort_by: weight
-  team:
+  scholars:
     output: true
   speakers:
-    output:true
+    output: true
 
 defaults:
   - scope:
@@ -30,15 +30,14 @@ defaults:
       layout: "service"
   - scope:
       path: ""
-      type: "team"
+      type: "scholars"
     values:
-      layout: "team"
+      layout: "scholars"
   - scope:
       path: ""
-      type: "team"
+      type: "speakers"
     values:
-      layout: "team"
-
+      layout: "speakers"
 sass:
   style: compressed # possible values: nested expanded compact compressed
 

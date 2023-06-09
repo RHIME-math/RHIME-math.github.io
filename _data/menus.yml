@@ -3,14 +3,17 @@ main:
     url: "/about/"
     weight: 2
   - name: "Scholars"
-    url: "/team/"
+    url: "/scholars/"
     weight: 3
   - name: "Projects"
     url: "/projects/"
     weight: 4
+  - name: "Speakers"
+    url: "/speakers/"
+    weight: 5
   - name: "Contact"
     url: "/contact/"
-    weight: 5
+    weight: 6
 
 footer:
   - name: "Home"
