@@ -27,7 +27,7 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "service"
+      layout: "projects"
   - scope:
       path: ""
       type: "scholars"
@@ -52,3 +52,5 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+enable_project_categories: true

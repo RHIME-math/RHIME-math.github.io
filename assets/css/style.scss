@@ -5,7 +5,8 @@
 $primary: #ffffff;
 $primary-dark: #a01b16;
 $secondary: darken($primary, 10%);
-$team_card: darken(#ffff24, 10%);
+$scholar_card: darken(#ffff24, 10%);
+$speaker_card: darken($primary, 10%);
 $black: #2f2f41;
 $white: #ffffff;
 $white-offset: darken($primary, 5%);
@@ -22,7 +23,7 @@ $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
 $font-family-heading: "Inconsolata", serif, -apple-system;
 
 // Footer
-$footer-background-color: $primary;
+$footer-background-color: $black;
 $footer-text-color: $white;
 $sub-footer-background-color: $black;
 $sub-footer-text-color: $white;
@@ -56,6 +57,7 @@ $sub-footer-text-color: $white;
 @import "components/feature";
 @import "components/social";
 // @import "components/fonts"; // Uncomment this line to self host font
+@import "components/projects";
 
 // Pages
 @import "pages/page-home";
@@ -72,3 +74,26 @@ body {
     line-height: 1.3;
   }
 }
+
+.card {
+  background-color: $white;
+
+  img {
+    width: 100%;
+  }
+
+  .card-title {
+    color: $black;
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
