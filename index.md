@@ -10,4 +10,4 @@ show_call_box: false
 
 # Rockland-Hudson Immersive Mathematics Experience
 
-This text lives in index.md
+RHIME is a mathematics enrichment program at St. Thomas Aquinas College.

@@ -23,20 +23,20 @@ bodyClass: "page-scholars"
         {% assign peer_mentors = site.scholars | where: "promoted", true | sort: "weight" %}
         {% for mentor in peer_mentors %}
         <div class="col-12 col-md-6 mb-2">
-            <div class="team team-summary team-summary-large">
+            <div class="scholars scholar-summary scholar-summary-large">
                 {% if mentor.image %}
-                <div class="team-image">
+                <div class="scholar-image">
                     <img width="90" height="90" alt="{{ mentor.title }}" class="img-fluid mb-2" src="{{ mentor.image | relative_url }}" />
                 </div>
                 {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ mentor.url | relative_url }}">{{ mentor.title }}</a></h2>
-                    <p class="team-description">{{ mentor.jobtitle }}</p>
+                <div class="scholar-meta">
+                    <h2 class="scholar-name"><a href="{{ mentor.url | relative_url }}">{{ mentor.title }}</a></h2>
+                    <p class="scholar-description">{{ mentor.jobtitle }}</p>
                     {% if mentor.linkedinurl %}
                     <a target="_blank" href="{{ mentor.linkedinurl }}" rel="noreferrer">LinkedIn</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ mentor.content | truncate: 120 }}</div>
+                <div class="scholar-content">{{ mentor.content | truncate: 120 }}</div>
             </div>
         </div>
         {% endfor %}
@@ -45,16 +45,16 @@ bodyClass: "page-scholars"
         {% assign scholars = site.scholars | where: "promoted", empty | sort: "weight" %}
         {% for scholar in scholars %}
         <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">
+            <div class="scholar scholar-summary">
                 Team member {{ scholar.title}}
                 {% if scholar.image %}
-                <div class="team-image">
+                <div class="scholar-image">
                     <img width="60" height="60" alt="{{ scholar.title }}" class="img-fluid mb-2" src="{{ scholar.image | relative_url }}" />
                 </div>
                 {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ scholar.url | relative_url }}">{{ scholar.title }}</a></h2>
-                    <p class="team-description">{{ scholar.jobtitle }}</p>
+                <div class="scholar-meta">
+                    <h2 class="scholar-name"><a href="{{ scholar.url | relative_url }}">{{ scholar.title }}</a></h2>
+                    <p class="scholar-description">{{ scholar.jobtitle }}</p>
                 </div>
             </div>
         </div>
