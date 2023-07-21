@@ -23,20 +23,20 @@ bodyClass: "page-speakers"
         {% assign promoted_speakers = site.speakers | where: "promoted", true | sort: "weight" %}
         {% for speaker in promoted_speakers %}
         <div class="col-12 col-md-6 mb-2">
-            <div class="team team-summary team-summary-large">
+            <div class="speakers speaker-summary speaker-summary-large">
                 {% if speaker.image %}
-                <div class="team-image">
+                <div class="speaker-image">
                     <img width="90" height="90" alt="{{ speaker.title }}" class="img-fluid mb-2" src="{{ speaker.image | relative_url }}" />
                 </div>
                 {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ speaker.url | relative_url }}">{{ speaker.title }}</a></h2>
-                    <p class="team-description">{{ speaker.jobtitle }}</p>
+                <div class="speaker-meta">
+                    <h2 class="speaker-name"><a href="{{ speaker.url | relative_url }}">{{ speaker.title }}</a></h2>
+                    <p class="speaker-description">{{ speaker.jobtitle }}</p>
                     {% if speaker.linkedinurl %}
                     <a target="_blank" href="{{ speaker.linkedinurl }}" rel="noreferrer">LinkedIn</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ speaker.content | truncate: 120 }}</div>
+                <div class="speaker-content">{{ speaker.content | truncate: 120 }}</div>
             </div>
         </div>
         {% endfor %}
@@ -45,15 +45,15 @@ bodyClass: "page-speakers"
         {% assign speakers = site.speakers | where: "promoted", empty | sort: "weight" %}
         {% for speaker in speakers %}
         <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">
+            <div class="speakers speaker-summary">
                 {% if speaker.image %}
-                <div class="team-image">
+                <div class="speaker-image">
                     <img width="60" height="60" alt="{{ speaker.title }}" class="img-fluid mb-2" src="{{ speaker.image | relative_url }}" />
                 </div>
                 {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ speaker.url | relative_url }}">{{ speaker.title }}</a></h2>
-                    <p class="team-description">{{ speaker.jobtitle }}</p>
+                <div class="speaker-meta">
+                    <h2 class="speaker-name"><a href="{{ speaker.url | relative_url }}">{{ speaker.title }}</a></h2>
+                    <p class="speaker-description">{{ speaker.jobtitle }}</p>
                 </div>
             </div>
         </div>
