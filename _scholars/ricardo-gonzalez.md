@@ -8,8 +8,7 @@ weight: 3
 promoted: true
 ---
 
+![Ricardo Gonzalez Polanco](/images/team/rg-2023.jpg){: width="100%"}
+
 I am an Exercise Science Major and collegiate baseball player from the Bronx, New York. I am interested in the RHIME program because it allows me to explore and study the different aspects of culture, society, or politics.
 
-<div class="img_container">
-![Ricardo Gonzalez Polanco](/images/team/rg-2023.jpg)
-</div>
