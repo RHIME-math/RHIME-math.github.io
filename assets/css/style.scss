@@ -5,7 +5,8 @@
 $primary: #ffffff;
 $primary-dark: #a01b16;
 $secondary: darken($primary, 10%);
-$team_card: darken(#ffff24, 10%);
+$scholar_card: #ffff24;
+$speaker_card: darken($primary, 10%);
 $black: #2f2f41;
 $white: #ffffff;
 $white-offset: darken($primary, 5%);
