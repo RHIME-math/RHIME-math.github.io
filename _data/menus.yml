@@ -1,6 +1,6 @@
 main:
-  - name: "About"
-    url: "/about/"
+  - name: "Apply"
+    url: "/apply/"
     weight: 2
   - name: "Scholars"
     url: "/scholars/"
@@ -11,9 +11,6 @@ main:
   - name: "Speakers"
     url: "/speakers/"
     weight: 5
-  - name: "Contact"
-    url: "/contact/"
-    weight: 6
 
 footer:
   - name: "Home"

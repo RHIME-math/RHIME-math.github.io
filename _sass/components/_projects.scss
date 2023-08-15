@@ -6,20 +6,20 @@
 
     &:hover {
       .card-title {
-        color: var(--global-theme-color, black);
+        color: black;
       }
     }
   }
 
 .card {
-  background-color: var(--global-card-bg-color, white);
+  background-color: $background;
 
   img {
     width: 100%;
   }
 
   .card-title {
-    color: var(--global-text-color, black);
+    color: black;
   }
 
   .card-item {
@@ -28,6 +28,7 @@
 
     .row {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
     }
   }
@@ -36,7 +37,7 @@
 
   .card {
     img {
-      width: 100%;
+      width: 50%;
     }
   }
 
@@ -46,6 +47,7 @@
 
     .row {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
     }
   }

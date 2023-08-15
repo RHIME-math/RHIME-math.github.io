@@ -8,6 +8,7 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 ---
 
-# Rockland-Hudson Immersive Mathematics Experience
+#### Rockland-Hudson Immersive Mathematics Experience
+# Data science projects with social context.
 
 RHIME is a mathematics enrichment program at St. Thomas Aquinas College.

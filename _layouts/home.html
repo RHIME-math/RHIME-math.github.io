@@ -2,15 +2,11 @@
 layout: default
 bodyClass: "page-home"
 ---
-
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <div class="col-12 col-md-3 col-lg-6 col-rg-9 order-2 order-md-1">
         {{ content }}
-        {% if page.show_call_box %}
-          {% include call.html show_button=true %}
-        {% endif %}
       </div>
       {% if page.intro_image %}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
@@ -21,36 +17,41 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
+<!--<div class="intro">
+  <div class="container">
+    <div class="row justify-content-end">
+
+      <div class="col-12 col-md-3 col-lg-6 order-last order-md-2">
+<p>The RHIME program is designed to provide mathematical enrichment and mentoring for undergraduate mathematics students at St. Thomas Aquinas College (STAC). RHIME consists of a semester-long program where math faculty (assisted by upperclassmen who are math or computer science majors) lead a small group of students in research projects which apply statistical methods and technology to analyze socially relevant, accessible, and real-world problems.</p>
+
+<p>RHIME has three main goals:
+<ul>
+   <li> Increasing enrollment at STAC of mathematics majors and minors in underrepresented groups,</li>
+   <li> Increasing experiential learning opportunities in the use of mathematics and technology for students in these groups, and</li>
+   <li> Increasing awareness of the broad applicability and importance of mathematical knowledge in the world at large.</li>
+</ul>
+We aim to meet these goals by providing
+<ul>
+    <li> mathematically rich projects in social context,</li>
+    <li> engagement with leaders in academia, the community, and the workforce, and </li>
+    <li> mentoring from both advanced undergraduates and faculty.</li>
+</ul>
+Please get in touch if you’d like to be involved!
       </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+      <div class="col-12 col-md-5 col-lg-6 order-first order-md-1 position-relative">
+        <img alt="Second Image" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="/images/illustrations/hudson2018pres.svg " />
       </div>
+
     </div>
   </div>
 </div>
+-->
 
 {% if site.data.features %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+<div class="strip">
+  <div class="container pt-3 pb-3 pt-md-3 pb-md-3">
+      <h2 style="text-align: center;" > Thanks to our sponsors for making this possible!</h2>
     <div class="row justify-content-center">
-
       {% for feature in site.data.features %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
