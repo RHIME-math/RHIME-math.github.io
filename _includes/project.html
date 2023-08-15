@@ -1,18 +1,13 @@
 <!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
+<!--<div class="grid-sizer"></div>-->
 
-<div class="grid-item">
-  {% if project.redirect -%}
-  <a href="{{ project.redirect }}">
-  
-  {%- else -%}
-    <a href="{{ project.url | relative_url }}">
-  {%- endif %}
-  
+<!--<div class="grid-item">-->
+    <div class="col-md-5">
+    <a href="{{ project.url | relative_url }}">  
       <div class="card hoverable">
-      {%- if project.img %}
+      {%- if project.image %}
         {%- include figure.html
-        path=project.img
+        path=project.image
         alt="project thumbnail" -%}
       {%- endif %}
         <div class="card-body">

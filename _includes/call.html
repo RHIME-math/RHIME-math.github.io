@@ -1,8 +1,9 @@
 <div class="call">
   <div class="call-box-top">
-    <div class="call-phone"> <h3> Andrew Lee </h3> </div>
+    <strong> Andrew Lee (Project Director) </strong>
+    <br />
     {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+    <div class="call-email"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
     {% endif %}
     {% if site.data.contact.email %}
     <div class="call-email"><strong>Email: </strong>
@@ -11,10 +12,13 @@
       </a>
     </div>
     {% endif %}
+    <div class="call-email"><strong> Personal Website: </strong>
+    <a href='{{ site.data.contact.website }}'> Github </a>
+    </div>
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
+        <a href="{{ site.data.contact.contact_button_link }}" class="button">Apply Here</a>
       </div>
     {% endif %}
 </div>
