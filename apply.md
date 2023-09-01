@@ -2,7 +2,7 @@
 title: Apply
 layout: page
 description: Apply
-bodyClass: page-about
+bodyClass: page-apply
 ---
 
 <!--The RHIME program is designed to provide mathematical enrichment and mentoring for undergraduate mathematics students at St. Thomas Aquinas College (STAC). RHIME consists of a semester-long program where math faculty (assisted by upperclassmen who are math or computer science majors) lead a small group of students in research projects which apply statistical methods and technology to analyze socially relevant, accessible, and real-world problems.-->

@@ -1,20 +1,20 @@
 [
   {
     "title": "St. Thomas Aquinas College",
-    "description": "School of STEM",
+    "description": "School of Science, Technology, Engineering, and Mathematics",
     "image": {
-      "url": "images/features/stac-logo.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/features/stac-horizontal-logo.svg",
+     // "width": 80,
+     //"height": 80
     }
   },
   {
-    "title": "Mathematical Association of America",
-    "description": "SUMMA (Strengthening Under-represented Minority Mathematical Achievement.",
+    "title": "Mathematical Assoc. of America",
+    "description": "SUMMA (Strengthening Under-represented Minority Mathematical Achievement)",
     "image": {
-      "url": "images/features/MAA_logo.png",
-      "width": 80,
-      "height": 80
+      "url": "images/features/maa_tensor_logo.png",
+     // "width": 80,
+     // "height": 80
     }
   }
 ]

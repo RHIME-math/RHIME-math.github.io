@@ -19,10 +19,9 @@ bodyClass: "page-home"
 
 <!--<div class="intro">
   <div class="container">
-    <div class="row justify-content-end">
-
+    <div class="row justify-content-start">
       <div class="col-12 col-md-3 col-lg-6 order-last order-md-2">
-<p>The RHIME program is designed to provide mathematical enrichment and mentoring for undergraduate mathematics students at St. Thomas Aquinas College (STAC). RHIME consists of a semester-long program where math faculty (assisted by upperclassmen who are math or computer science majors) lead a small group of students in research projects which apply statistical methods and technology to analyze socially relevant, accessible, and real-world problems.</p>
+<p> RHIME consists of a semester-long program where math faculty (assisted by upperclassmen who are math or computer science majors) lead a small group of students in research projects which apply statistical methods and technology to analyze socially relevant, accessible, and real-world problems.</p>
 
 <p>RHIME has three main goals:
 <ul>
@@ -30,18 +29,21 @@ bodyClass: "page-home"
    <li> Increasing experiential learning opportunities in the use of mathematics and technology for students in these groups, and</li>
    <li> Increasing awareness of the broad applicability and importance of mathematical knowledge in the world at large.</li>
 </ul>
+</p>
+
+<p>
 We aim to meet these goals by providing
 <ul>
     <li> mathematically rich projects in social context,</li>
     <li> engagement with leaders in academia, the community, and the workforce, and </li>
     <li> mentoring from both advanced undergraduates and faculty.</li>
 </ul>
+</p>
 Please get in touch if you’d like to be involved!
       </div>
-      <div class="col-12 col-md-5 col-lg-6 order-first order-md-1 position-relative">
+       <div class="col-12 col-md-5 col-lg-6 order-first order-md-1 position-relative">
         <img alt="Second Image" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="/images/illustrations/hudson2018pres.svg " />
       </div>
-
     </div>
   </div>
 </div>
@@ -53,12 +55,12 @@ Please get in touch if you’d like to be involved!
       <h2 style="text-align: center;" > Thanks to our sponsors for making this possible!</h2>
     <div class="row justify-content-center">
       {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="col-19 col-md-6 col-lg-4 mb-2">
         <div class="feature">
           {% if feature.image %}
           <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
           {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
+          <h3 class="feature-title">{{ feature.title }}</h2>
           <div class="feature-content">{{ feature.description }}</div>
         </div>
       </div>
