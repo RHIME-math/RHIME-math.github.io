@@ -7,4 +7,4 @@ promoted: true
 weight: 5
 ---
 
-Bio goes here.
+My name is Jojo Jose, and I'm currently a junior at St. Thomas Aquinas College, majoring in Computer Science and minoring in Data Science. I've spent a semester researching and working on redistricting and gerrymandering using Python. I am looking forward to working with R for similar projects in the RHIME program.
