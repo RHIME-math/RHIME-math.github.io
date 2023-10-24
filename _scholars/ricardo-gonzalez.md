@@ -3,7 +3,6 @@ title: "Ricardo Gonzalez Polanco"
 layout: scholar
 image: "images/team/rg-2023.jpg"
 jobtitle: "Student-Scholar"
-linkedinurl: "https://www.linkedin.com/"
 weight: 3
 promoted: true
 ---

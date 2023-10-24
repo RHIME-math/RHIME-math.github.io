@@ -3,7 +3,6 @@ title: "Joshua Ashie"
 layout: scholar
 image: "images/team/ja-2023-large.jpg"
 jobtitle: "Student-Scholar"
-linkedinurl: ""
 promoted: true
 weight: 3
 ---
