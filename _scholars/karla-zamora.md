@@ -1,6 +1,5 @@
 ---
 title: "Karla Zamora"
-date: 2018-11-19T10:47:58+10:00
 layout: scholar
 image: "images/team/kz-2023-large.jpg"
 jobtitle: "Student-Scholar"
